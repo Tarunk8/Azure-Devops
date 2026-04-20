@@ -1,6 +1,7 @@
 # Azure Kubernetes Service with Azure DevOps and Terraform 
 
-[![Image](https://stacksimplify.com/course-images/azure-kubernetes-service-with-azure-devops-and-terraform-bestseller.png "Azure Kubernetes Service with Azure DevOps and Terraform")](https://stacksimplify.com/courses/azure-aks-devops-terraform/)
+![logo](https://github.com/Tarunk8/Azure-Devops/blob/main/Kubernetes-Architecture-Diagram.jpg)
+![logo](https://github.com/Tarunk8/Azure-Devops/blob/main/kubernetes_architecture.jpg)
 
 
 ## Course Modules 
