@@ -15,11 +15,11 @@ spec:
     spec:
       containers: # List
         - name: myapp1-container
-          image: stacksimplify/kubenginx:1.0.0 
-          #image: ghcr.io/stacksimplify/kubenginx:1.0.0 
+          image: nginx
+          
           ports:
             - containerPort: 80
-
+      
 # 📌 Important Note on Docker Image:
 #
 # 1. By default, the image used is:
@@ -34,9 +34,6 @@ spec:
 #        image: ghcr.io/stacksimplify/kubenginx:1.0.0
 #
 # ✅ Both images are identical.
-#
-# 🔗 GitHub Packages Link:
-#    https://github.com/users/stacksimplify/packages/container/package/kubenginx
 
 
     
