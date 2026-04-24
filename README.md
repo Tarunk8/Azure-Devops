@@ -1,6 +1,7 @@
 # Azure Kubernetes Service with Azure DevOps and Terraform 
 
-[![Image](https://stacksimplify.com/course-images/azure-kubernetes-service-with-azure-devops-and-terraform-bestseller.png "Azure Kubernetes Service with Azure DevOps and Terraform")](https://stacksimplify.com/courses/azure-aks-devops-terraform/)
+![logo](https://github.com/Tarunk8/Azure-Devops/blob/main/Kubernetes-Architecture-Diagram.jpg)
+![logo](https://github.com/Tarunk8/Azure-Devops/blob/main/kubernetes_architecture.jpg)
 
 
 ## Course Modules 
@@ -62,7 +63,7 @@
 | 24.5 | Create Azure AKS Cluster using Custom Virtual Network |
 | 25   | Provision Azure AKS using Terraform & Azure DevOps |
 
-## Azure Services Covered
+## Azure Services
 
 | S.No | Azure Service Name |
 | -----| ------------------ |
@@ -89,7 +90,7 @@
 | 21.  | Azure Log Analytics Workspaces for Azure Monitor|
 
 
-## Kubernetes Concepts Covered
+## Kubernetes Concepts
 
 | S.No | Kubernetes Concept Name |
 | ---- | ------------------- |
@@ -127,146 +128,4 @@
 
 
 
-## List of Docker Images  on Docker Hub
-
-| Application Name  | Docker Image Name |
-| ----------------- | ----------------- |
-| Simple Nginx V1  | stacksimplify/kubenginx:1.0.0  |
-| Spring Boot Hello World API  | stacksimplify/kube-helloworld:1.0.0  |
-| Simple Nginx V2  | stacksimplify/kubenginx:2.0.0  |
-| Simple Nginx V3  | stacksimplify/kubenginx:3.0.0  |
-| Simple Nginx V4  | stacksimplify/kubenginx:4.0.0  |
-| Backend Application  | stacksimplify/kube-helloworld:1.0.0  |
-| Frontend Application  | stacksimplify/kube-frontend-nginx:1.0.0  |
-| Kube Nginx App1  | stacksimplify/kube-nginxapp1:1.0.0  |
-| Kube Nginx App2  | stacksimplify/kube-nginxapp2:1.0.0  |
-| User Management Web Application  | stacksimplify/kube-usermgmt-webapp:1.0.0-MySQLDB  |
-
-## List of Docker Images you build in Azure Container Registry
-
-| Application Name  | Docker Image Name |
-| ----------------- | ----------------- |
-| ACR attached to AKS  | YOUR_ACR_REPO.azurecr.io/app1/kube-nginx-acr:v1  |
-| ACR with Service Principal | YOUR_ACR_REPO.azurecr.io/app2/acr-app2:v1   |
-| ACR with Service Principal | YOUR_ACR_REPO.azurecr.io/custom2aksnginxapp1:BUILDID   |
-
-## Sample Applications
-- Nginx Applications
-- User Management Web Application built using Spring Boot using MySQL as underlying storage
-
-## What will students learn in your course?
-- You will learn to build Azure AKS Production grade clusters using Azure AKS CLI
-- You will learn terraform from basics and create terraform manifests for provisioning Azure AKS Production grade clusters
-- You will learn to provision Azure AKS Clusters using Terraform and Azure DevOps. 
-- You will learn 30+ kubernetes concepts and use 21 Azure Services in combination with Azure AKS
-- You will implement DevOps concepts with Azure DevOps Continuous Integration Pipelines and Continuous Deliver Pipelines also called Release Pipelines
-- You will write Azure DevOps CI Pipelines from scratch using Starter Pipelines
-- You will write kubernetes manifests with confidence after going through live template writing sections
-- You will learn Kubernetes Fundamentals in both imperative and declarative approaches
-- You will learn writing & deploying k8s manifests for storage concepts like storage class, persistent volume claim pvc, mysql 
-- You will learn to switch from native Azure Disks to Azure MySQL Database using k8s external name service
-- You will learn writing and deploying load balancer k8s manifests for Azure Standard Load Balancer
-- You will learn writing ingress k8s manifests by enabling features like context path based routing, domain name based routing,  SSL with LetsEncrypt and External DNS. 
-- You will learn writing k8s manifests for Azure Virtual Nodes (serverless)  and do mixed mode workload deployments in both Azure Linux NodePools and Virtual Nodes. 
-- You will learn using ACR - Azure Container Registry in combination with AKS in 3 ways (ACR Attach, using Service Principal, on Virtual Nodes). 
-- You will learn to enable Autoscaling features like HPA & Cluster Autoscaler
-- You will learn Docker fundamentals by implementing usecases like download image from Docker Hub and run on local desktop and build an image locally, test and push to Docker Hub.
-- You will master many kubectl commands over the process
-- You will learn to integrate Azure AKS with Azure Active Directory for AKS Admins to be created managed in Azure Active Directory
-- You will learn Kubernetes RBAC concepts like role, role-binding, cluster role, cluster role binding in combination with Azure AD for Azure AKS granular level access
-
-## Are there any course requirements or prerequisites?
-- You must have an Azure Cloud account to follow with me for hands-on activities.
-- You dont need to have any basic Docker or kubernetes knowledge to start this course.  
-
-
-## Who are your target students?
-- Azure Architects or Sysadmins or Developers who are planning to master Azure Kubernetes Service (AKS) for running applications on Kubernetes
-- Any beginner who is interested in learning kubernetes on cloud using Azure AKS. 
-- Any beginner who is interested in learning Azure DevOps, Terraform to provision Azure Kubernetes Clusters
-
-## Github Repositories used for this course
-- [Azure Kubernetes Service with Azure DevOps and Terraform](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass)
-- [Azure DevOps for Kubernetes Workloads running on Azure AKS Cluster](https://github.com/stacksimplify/azure-devops-github-acr-aks-app1)
-- [Provision Azure AKS Cluster using Terraform and Azure DevOps](https://github.com/stacksimplify/azure-devops-aks-kubernetes-terraform-pipeline)
-- [Docker Fundamentals](https://github.com/stacksimplify/docker-fundamentals)
-- [Presentation with 250 Slides outlining the various architectures and designs we are going to do in this course](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/ppt-presentation)
-- **Important Note:** Please go to these repositories and FORK these repositories and make use of them during the course.
-
-
-## Each of my courses come with
-- Amazing Hands-on Step By Step Learning Experiences
-- Real Implementation Experience
-- Friendly Support in the Q&A section
-- 30 Day "No Questions Asked" Money Back Guarantee!
-
-## My Other AWS Courses
-- [Udemy Enroll](https://github.com/stacksimplify/udemy-enroll)
-
-## Instructor Profile
-- [Kalyan Reddy Daida - StackSimplify](https://stacksimplify.com/about/)
-
-# AWS EKS - Elastic Kubernetes Service - Masterclass
-
-[![Image](https://stacksimplify.com/course-images/AWS-EKS-Kubernetes-Masterclass-DevOps-Microservices-course.png "AWS EKS Kubernetes - Masterclass")](https://stacksimplify.com/courses/aws-eks-masterclass/)
-
----
-
-## My Other Courses (383,000+ Students, 20 Courses)
-
-> All courses available at [stacksimplify.com/courses](https://stacksimplify.com/courses/)
-
-### AWS Courses
-
-| Course | Students | Rating |
-|--------|----------|--------|
-| [AWS EKS Kubernetes Masterclass](https://stacksimplify.com/courses/aws-eks-masterclass/) | 70,041+ | 4.6 (5,495 ratings) |
-| [AWS VPC Transit Gateway](https://stacksimplify.com/courses/aws-vpc-transit-gateway/) | 52,243+ | 4.6 (790 ratings) |
-| [Terraform on AWS with SRE and IaC DevOps](https://stacksimplify.com/courses/terraform-on-aws-sre/) | 31,006+ | 4.6 (3,347 ratings) |
-| [Terraform on AWS EKS Kubernetes IaC SRE](https://stacksimplify.com/courses/terraform-aws-eks/) | 26,929+ | 4.5 (2,238 ratings) |
-| [HashiCorp Certified: Terraform Associate (AWS)](https://stacksimplify.com/courses/hashicorp-terraform-associate-aws/) | 16,835+ | 4.6 (1,754 ratings) |
-| [AWS CloudFormation Simplified](https://stacksimplify.com/courses/aws-cloudformation/) | 16,223+ | 4.3 (1,469 ratings) |
-| [AWS Fargate and ECS Masterclass](https://stacksimplify.com/courses/aws-fargate-ecs/) | 15,208+ | 4.4 (1,051 ratings) |
-| [AWS CodePipeline CI/CD](https://stacksimplify.com/courses/aws-codepipeline/) | 9,832+ | 4.0 (966 ratings) |
-| [AWS Elastic Beanstalk Master Class](https://stacksimplify.com/courses/aws-elastic-beanstalk/) | 7,588+ | 4.3 (373 ratings) |
-| [Ultimate DevOps Real-World Project on AWS](https://stacksimplify.com/courses/ultimate-devops-real-world-project-on-aws/) | 4,772+ | 4.72 (358 ratings) |
-
-### Azure Courses
-
-| Course | Students | Rating |
-|--------|----------|--------|
-| [Azure Kubernetes Service with Azure DevOps and Terraform](https://stacksimplify.com/courses/azure-aks-devops-terraform/) | 48,551+ | 4.6 (6,196 ratings) |
-| [Terraform on Azure with IaC DevOps SRE](https://stacksimplify.com/courses/terraform-on-azure/) | 17,918+ | 4.7 (1,911 ratings) |
-| [Azure HashiCorp Certified: Terraform Associate](https://stacksimplify.com/courses/hashicorp-terraform-associate-azure/) | 16,938+ | 4.5 (1,985 ratings) |
-| [Azure Kubernetes Service AGIC Ingress](https://stacksimplify.com/courses/azure-aks-agic/) | 2,012+ | 4.6 (112 ratings) |
-
-### GCP Courses
-
-| Course | Students | Rating |
-|--------|----------|--------|
-| [GCP Google Kubernetes Engine GKE with DevOps](https://stacksimplify.com/courses/gcp-gke-kubernetes/) | 8,769+ | 4.4 (779 ratings) |
-| [GCP Associate Cloud Engineer Certification](https://stacksimplify.com/courses/gcp-associate-cloud-engineer/) | 6,007+ | 4.6 (599 ratings) |
-| [GCP Terraform on Google Cloud](https://stacksimplify.com/courses/gcp-terraform/) | 2,600+ | 4.4 (213 ratings) |
-| [GCP GKE Terraform on Google Kubernetes Engine](https://stacksimplify.com/courses/gcp-gke-terraform/) | 2,040+ | 4.6 (155 ratings) |
-
-### DevOps and General
-
-| Course | Students | Rating |
-|--------|----------|--------|
-| [Helm Masterclass: 50 Practical Demos](https://stacksimplify.com/courses/helm-masterclass/) | 12,069+ | 4.7 (915 ratings) |
-| [Docker in a Weekend: 40 Practical Demos](https://stacksimplify.com/courses/docker-weekend/) | 3,802+ | 4.6 (361 ratings) |
-
----
-
-## Instructor Profile
-- [Kalyan Reddy Daida - StackSimplify](https://stacksimplify.com/about/)
-
----
-
-## Connect with Me
-- [YouTube - Cloud & DevOps Tutorials](https://www.youtube.com/@stacksimplify)
-- [LinkedIn - Kalyan Reddy](https://www.linkedin.com/in/kalyan-reddy/)
-- [GitHub - StackSimplify](https://github.com/stacksimplify)
-
----
 
